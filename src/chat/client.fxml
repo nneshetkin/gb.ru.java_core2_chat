@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.Controller">
+   <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" />
+   <GridPane>
+      <children>
+         <TextField fx:id="interTextArea" alignment="TOP_LEFT" onAction="#PreesEnter" GridPane.hgrow="ALWAYS" />
+         <Button alignment="TOP_RIGHT" contentDisplay="RIGHT" onAction="#btnClick" text="Отпр." GridPane.columnIndex="1" />
+      </children>
+   </GridPane>
+
+
+</VBox>
